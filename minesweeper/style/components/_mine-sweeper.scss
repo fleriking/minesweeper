@@ -1,0 +1,84 @@
+.mine-sweeper__board {
+  width: min-content;
+
+}
+
+.mine-sweeper__element {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: rgb(197, 194, 194);
+  margin: 1px;
+  padding: 0;
+  cursor: pointer;
+  text-align: center;
+  padding-top: 8px;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+
+.mine-sweeper__road {
+  // height: 11px;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+.mine-sweeper__flag{
+  border: 2px solid red;
+}
+.mine-sweeper__color-cell-null {
+  color: rgb(197, 194, 194);
+}
+
+.mine-sweeper__color-cell-0 {
+  color: darkgray;
+  background-color: darkgray;
+}
+
+.mine-sweeper__color-cell-1 {
+  color: blue;
+  background-color: darkgray;
+}
+
+.mine-sweeper__color-cell-2 {
+  color: green;
+  background-color: darkgray;
+}
+
+.mine-sweeper__color-cell-3 {
+  color: red;
+  background-color: darkgray;
+}
+
+.mine-sweeper__color-cell-4 {
+  color: darkblue;
+  background-color: darkgray;
+}
+
+.mine-sweeper__color-cell-5 {
+  color: brown;
+  background-color: darkgray;
+}
+
+.mine-sweeper__color-cell-6 {
+  color: aqua;
+  background-color: darkgray;
+}
+
+.mine-sweeper__color-cell-7 {
+  color: black;
+  background-color: darkgray;
+}
+
+.mine-sweeper__color-cell-8 {
+  color: gray;
+  background-color: darkgray;
+}
+
+.mine-sweeper__element--light {
+  background-color: rgb(112, 221, 221);
+}
+.mine-sweeper__cell--light {
+  background-color: rgb(153, 206, 252);
+}

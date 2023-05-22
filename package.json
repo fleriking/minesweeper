@@ -1,0 +1,24 @@
+{
+  "name": "minesweeper",
+  "version": "1.0.0",
+  "description": "You are to implement a classic game — [Minesweeper](<https://en.wikipedia.org/wiki/Minesweeper_(video_game)>)",
+  "main": "index.js",
+  "scripts": {
+    "style": "sass --watch minesweeper/style/style.scss minesweeper/style/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fleriking/minesweeper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fleriking/minesweeper/issues"
+  },
+  "homepage": "https://github.com/fleriking/minesweeper#readme",
+  "dependencies": {
+    "sass": "^1.62.1"
+  }
+}
